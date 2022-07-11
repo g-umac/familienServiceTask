@@ -1,0 +1,33 @@
+[
+    {
+        " number": "One",
+        "icon": " fa-envelope",
+        "title": "E-Mail-Benachrichtigungen verwalten ",
+        "content": "Möchten Sie Benachrichtigungen verwalten? Sie können Ihre Benachrichtigungseinstellungen jederzeit hier ändern."
+    },
+    {
+        "number": "Two",
+        "icon": "fa-at",
+        "title": "E-Mail-Adresse ändern",
+        "content": "Du hast eine neue E-Mail-Adresse?",
+        "subcontent":"Hier kannst du jederzeit deine E-Mail-Adresse ändern."
+    },
+    {
+        "number": "Three",
+        "icon": "fa-lock",
+        "title": "Passwort ändern ",
+        "content": "Möchten Sie Ihr Passwort ändern? Hier können Sie Ihr Passwort jederzeit ändern."
+    },
+    {
+        "number": "Four",
+        "icon": "fa-sticky-note",
+        "title": "Onlinedarstellung verwalten",
+        "content": "Hier können Sie Onlinedarstellung verwalten."
+    },
+    {
+        "number": "Five",
+        "icon": "fa-times-circle",
+        "title": "Benutzerkonto löschen",
+        "content": "Hier können Sie Ihre Benutzerkonto löschen."
+    }
+]

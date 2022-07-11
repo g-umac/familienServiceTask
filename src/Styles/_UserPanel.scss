@@ -1,0 +1,61 @@
+.header {
+  aspect-ratio: 1 / 0.20;
+  overflow: hidden;
+  display: flex;
+  background-image: url('../assests/images/Header.png');
+  place-content: center;
+  margin: 0 0 0 0 !important;
+  padding:  0 0 0 0 !important;;
+  background-size: cover;
+
+  div {
+    width: 100%;
+    height: auto; 
+  }
+}
+.logo {
+  padding: 1rem;
+  margin-top: -4rem;
+  width: 120px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  border: solid 2px #007aad;
+  background-color: #eaf3ff;
+}
+
+.logo_image {
+  font-size: 5rem;
+  color: #9fb9dc;
+}
+
+.placeholderss {
+  flex-basis: 400px;
+  flex-shrink: 0;
+}
+
+.pencil {
+  margin-top: 0.3rem;
+  height: 33px;
+  margin-left: -0.8rem;
+  padding-top: 6px; 
+  color: white;
+  background-color: #ad325d;
+}
+
+.save-button {
+  background-color: "#AD325D";
+  margin-right: "3rem";
+  margin-left: "3rem";
+  border: "none";
+}
+
+
+@media screen and (max-width: 850px){ 
+  .header {
+    background-image: none;
+      margin-top: 0rem !important;
+      background: rgb(106, 166, 200); 
+  }
+}

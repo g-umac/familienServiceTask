@@ -1,0 +1,33 @@
+ 
+
+.accordion-item {
+   border: none !important;
+    border-bottom: 1px solid #c4bfbf    !important;  
+}
+ 
+.accordion-button::after  {
+     background-image: url( '../assests/images/arrow-234.svg') !important;
+    background-position: center !important;
+    background-size: .8rem !important;    
+}
+ 
+.icons::before{ 
+   border:none;
+   height: .9rem !important; 
+   background-position: center !important;
+   background-size: .7rem !important;    
+   color: #AD325D !important; 
+}
+.custommToggle >button {
+border:1px solid transparent !important;
+background-color: transparent !important;
+}
+.icons::after{ 
+ display: none;
+     
+ }
+.accordion-button:not(.collapsed)::after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 320 512" fill="%23AD325D"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"/></svg>') !important;
+    background-position: center !important;
+    background-size: .7rem !important;     
+}
